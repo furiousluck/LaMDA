@@ -30,7 +30,7 @@ for word in input_str:
 # This removes all the extra whitespaces
 txt = txt.strip()
 
-# W
+# Writes the processed text in the new processed_text.txt file
 file = open(r"processed_text.txt" , "a")
 file.writelines(txt)
 file.close()
